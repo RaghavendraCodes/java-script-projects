@@ -1,0 +1,90 @@
+body {
+    background-color: aliceblue;
+}
+
+.section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.container h1 {
+    align-items: center;
+    font-size: 50px;
+}
+
+.accordian {
+    padding: 0rem 2rem;
+    width: 50%;
+    margin: auto;
+}
+
+.accordian_item {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(147, 55, 233);
+    border: 1px solid black;
+    height: auto;
+}
+
+.accordian_item:hover {
+    background-color: rgb(163, 75, 245);
+    transition: 0.3s;
+}
+
+.accordian_title {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 5px 5px 15px 5px;
+    margin-top: -9px;
+}
+
+.accordian_title h3 {
+    font-size: 20px;
+    flex: 1;
+    color: blue;
+    padding: 5px 15px;
+    height: 0.1vh;
+    cursor: pointer;
+}
+
+.accordian_title i {
+    justify-content: flex-end;
+    align-items: center;
+    padding: 5px 10px;
+    height: 0.1vh;
+    cursor: pointer;
+}
+
+.accordian_content {
+    padding: 5px 25px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    margin-top: -1rem;
+}
+
+.accordian_content p {
+    font-size: 18px;
+}
+
+.accordian_title.active + .accordian_content {
+    display: block;
+    
+}
+
+.accordian_title.active i {
+    transform: rotate(180deg);
+    margin-top: 1.25rem;
+}
+
