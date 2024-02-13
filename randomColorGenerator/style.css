@@ -1,0 +1,84 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 8px;
+    font-size: 20px;
+    background-color: black;
+}
+
+.rcg-container {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    height: 90vh;
+    width: 100%;
+}
+
+h1 {
+    font-size: 30px;
+    padding: 5px 5px;
+    padding-bottom: 10px;
+    color: white;
+    text-align: center;
+}
+
+.rgb-color-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    width: 50%;
+}
+
+.hex-color-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: green;
+    width: 50%;
+}
+
+.hex-color-container p {
+    font-size: 30px;
+    color: white;
+    padding: 20px 20px;
+}
+
+.hex-color-container button {
+    align-items: center;
+    padding: 12px 20px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: blueviolet;
+}
+
+.rgb-color-container label {
+    padding: 5px 15px;
+}
+
+.rgb-color-container button {
+    align-items: center;
+    padding: 12px 20px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: blueviolet;
+    margin-top: 20px;
+}
+
+.rgb-color-container input {
+    padding: 5px 15px;
+    margin: 5px 10px;
+}
+
+.rgb-color-container h3 {
+    padding: 15px 25px;
+    font-size: 30px;
+}
