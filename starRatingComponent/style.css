@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgba(195, 240, 246, 0.896);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    color: rgb(63, 106, 224);
+    padding: 1rem 1rem;
+}
+
+.star {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: rgba(128, 128, 128, 0.718);
+    padding: 1rem 1rem;
+}
+
+.star i{
+    gap: 1rem;
+    font-size: 4rem;
+    padding: 0.5rem 0.5rem;
+}
+
+h4 {
+    font-size: 30px;
+    padding: 1rem 1rem;
+}
+
+.stars {
+    color: goldenrod;
+    transition: 0.5s ease-in-out;
+}

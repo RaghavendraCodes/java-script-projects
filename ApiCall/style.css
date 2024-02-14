@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(217, 79, 217);
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 25px;
+}
+
+.container h1 {
+    text-align: center;
+    font-size: 40px;
+    padding: 10px 10px;
+    color: rgb(85, 14, 151);
+}
+
+.posts-lists {
+    padding: 10px 10px;
+    width: 60%;
+    gap: 10px;
+}
+
+.post-item {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    background-color: purple;
+    margin: 10px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.post-item:hover {
+    background-color: rgb(192, 12, 192);
+
+}
+
+.post-item h3 {
+    padding: 5px 0;
+}
